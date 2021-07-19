@@ -2,7 +2,7 @@ service-name := simulator-front
 image := $(service-name)-img
 container := $(service-name)-con
 port_in := 80
-port_out := 6103
+port_out := 6104
 
 all: build run
 

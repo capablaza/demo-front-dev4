@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "simulator-front:dev"  
         CONTAINER_NAME = "simulator-front-dev"
-        OUT_CONTAINER_PORT="6103"
+        OUT_CONTAINER_PORT="6104"
         IN_CONTAINER_PORT="80"      
     }
 
